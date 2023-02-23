@@ -1,0 +1,46 @@
+docker --version
+=> verify the current installed version
+
+docker images
+=> verify images in the current folder files
+
+docker build . -t joelotic/accounts
+=> . > on the same docker file
+-t > tag 
+
+docker image inspect 706
+
+Docker ps
+=> show all docker image instance running
+
+Docker -run 8080:8080 eazybytes/account tag
+
+Docker -run -p
+Docker -run -d -p
+=> (without log when starting the docker image)
+
+Docker logs fc
+ => starting image name
+
+Docker logs -f
+=> (indicate docker to follow) fc
+
+Docker stop fc
+=> stop particular docker instance
+
+Docker ps -a
+=> indicate all docker in the server
+
+Docker start fc ee
+=> start docker ee means?
+
+Docker container pause fc
+=> (dont want to use or take any call)
+
+Docker container unpause fc
+=> unpause the docker instance
+
+Docker ps inspect xxx
+
+Docker rm containerid
+=> remove docker instance
