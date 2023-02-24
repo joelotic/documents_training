@@ -45,5 +45,13 @@ Docker ps inspect xxx
 Docker rm containerid
 => remove docker instance
 
+
+Docker push docker.io/ezbytes/account
+:latest to tell docker the latest
+
+Docker-compose up
+Or
+Stop
+
 v2
 v3
