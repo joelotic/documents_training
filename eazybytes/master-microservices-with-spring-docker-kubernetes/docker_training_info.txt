@@ -1,6 +1,8 @@
 docker --version
 => verify the current installed version
 
+docker run -d -p 80:80 docker/getting-started
+
 docker images
 => verify images in the current folder files
 
