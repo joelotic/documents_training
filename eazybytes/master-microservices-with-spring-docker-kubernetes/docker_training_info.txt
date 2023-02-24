@@ -49,6 +49,10 @@ Docker rm containerid
 Docker push docker.io/ezbytes/account
 :latest to tell docker the latest
 
+/*spring*/
+mvn spring-boot-:run
+
+
 Docker-compose up
 Or
 Stop
